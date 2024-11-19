@@ -1,0 +1,80 @@
+DBLP:
+  K: 6
+  emb_dim: 256
+  hidden: 32
+  input_drop: 0.8
+  dropout: 0.5
+  lr: 0.005
+  wd: 0.0001
+  alpha : 0.1
+  alpha_list: 0.8
+  temp_lr: 0.001
+  temp_wd: 0.01
+  temp_list_lr: 0.001
+  temp_list_wd: 0.01
+  beta_lr: 0.00001
+  beta_wd: 0.0
+  a: -0.75
+  b: 1.25
+  poly: 'GPR_legendre'
+
+ACM:
+  K: 10
+  emb_dim: 64
+  hidden: 16
+  input_drop: 0.3
+  dropout: 0.
+  lr: 0.0005
+  wd: 0.0
+  temp_lr: 0.05
+  temp_wd: 0.4
+  temp_list_lr: 0.05
+  temp_list_wd: 0.7
+  beta_lr: 0.01
+  beta_wd: 0.3
+  alpha : 0.1
+  alpha_list: 0.1
+  dprate : 0.5
+  a: 0.0
+  b: -0.25
+  poly: 'GPR_jaco'
+
+IMDB:
+  K: 10
+  emb_dim: 128
+  hidden: 256
+  input_drop: 0.05
+  dropout: 0.7
+  lr: 0.0005
+  wd: 0.0005
+  temp_lr: 0.01
+  temp_wd: 1.0
+  temp_list_lr: 0.01
+  temp_list_wd: 1.0
+  beta_lr: 0.01
+  beta_wd: 1.0
+  alpha : 0.1
+  alpha_list: 0.2
+  a: 0.0
+  b: -0.25
+  poly: 'GPR_GPR'
+
+AMiner:
+  K: 10
+  emb_dim: 128
+  hidden: 32
+  input_drop: 0.2
+  dropout: 0.35
+  lr: 0.001
+  wd: 0.0005
+  temp_lr: 0.001
+  temp_wd: 0.3
+  temp_list_lr: 0.001
+  temp_list_wd: 0.3
+  beta_lr: 0.001
+  beta_wd: 0.3
+  alpha : 0.1
+  alpha_list: 0.1
+  a: 0.0
+  b: -0.25
+  poly: 'GPR_GPR'
