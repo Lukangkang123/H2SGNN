@@ -1,0 +1,20 @@
+{
+ "Node Total": 21420,
+ "Node Type_0": 4932,
+ "Node Type_1": 2393,
+ "Node Type_2": 6124,
+ "Node Type_3": 4932,
+ "Edge Total": 86642,
+ "Edge Type_0": 4932,
+ "Edge Type_1": 4932,
+ "Edge Type_2": 14779,
+ "Edge Type_3": 14779,
+ "Edge Type_4": 23610,
+ "Edge Type_5": 23610,
+ "Label Total": 7963,
+ "Label Class_0_Type_0": 1090,
+ "Label Class_0_Type_1": 1384,
+ "Label Class_0_Type_2": 1837,
+ "Label Class_0_Type_3": 1135,
+ "Label Class_0_Type_4": 2517
+}
