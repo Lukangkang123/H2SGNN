@@ -1,4 +1,4 @@
-## H2SGNN on HGB datasets
+## H2SGNN
   
 ## Environment Settings
 - pytorch 1.12.1
@@ -11,7 +11,7 @@
 - scikit-learn 1.1.3
 - ogb 1.3.6
   
-The dataset is already in the data folder. You can run the following commands directly in this folder. 
+The dataset is already in the data folder. You can run commands directly in this folder, such as:
 ```sh
 python main.py --dataset AMiner
 python main.py --dataset ACM
