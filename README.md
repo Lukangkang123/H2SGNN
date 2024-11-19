@@ -1,5 +1,7 @@
 ## H2SGNN
-  Due to size limitations, missing files are available in [HGB](https://github.com/THUDM/HGB).
+
+## Dataset
+  Due to size limitations, missing data are available in [HGB](https://github.com/THUDM/HGB).
 ## Environment Settings
 - pytorch 1.12.1
 - numpy 1.23.1
