@@ -1,0 +1,45 @@
+{
+    "node.dat":
+    {
+        "node type":
+        {
+            "0":"author",
+            "1":"paper",
+            "2":"term",
+            "3":"venue"
+        },
+        "Attribute Dimension":
+        {
+            "0":"0",
+            "1":"4231",
+            "2":"50",
+            "3":"0"
+        }
+
+    },
+    "link.dat":
+    {
+        "link type":
+        {
+            "0":{"start":"0", "end":"1", "meaning":"author-paper"},
+            "1":{"start":"1", "end":"2", "meaning":"paper-term"},
+            "2":{"start":"1", "end":"3", "meaning":"paper-venue"},
+            "3":{"start":"1", "end":"0", "meaning":"paper-author"},
+            "4":{"start":"2", "end":"1", "meaning":"term-paper"},
+            "5":{"start":"3", "end":"1", "meaning":"venue-paper"}
+        }
+    },
+    "label.dat":
+    {
+        "node type":
+        {
+            "0":
+            {
+                "0":"Database",
+                "1":"Data Mining",
+                "2":"AI",
+                "3":"Information Retrieval"
+            }
+        }
+    }
+}
