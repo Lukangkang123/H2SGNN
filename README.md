@@ -11,7 +11,7 @@
 - scikit-learn 1.1.3
 - ogb 1.3.6
 
-## run
+## Run
 The dataset is already in the data folder. You can run commands directly in this folder, such as:
 ```sh
 python main.py --dataset AMiner
