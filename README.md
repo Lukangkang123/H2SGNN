@@ -1,4 +1,5 @@
-## H2SGNN
+## H2SGNN 
+The code of H2SGNN for four datasets, code of ogbn-arxiv will be coming soon
 
 ## Dataset
   Due to size limitations, missing data are available in [HGB](https://github.com/THUDM/HGB).
