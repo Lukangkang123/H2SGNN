@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6684f1bfbc33c79b40623baa595fe1f039820b06b93c6ca5c4df2d16a1ef3931
-size 245
+*.dat filter=lfs diff=lfs merge=lfs -text
+data/DBLP/node.dat filter=lfs diff=lfs merge=lfs -text
+data/IMDB/node.dat filter=lfs diff=lfs merge=lfs -text
+data/**/*.dat filter=lfs diff=lfs merge=lfs -text
