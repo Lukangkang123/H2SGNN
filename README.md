@@ -1,5 +1,5 @@
 ## Addressing Heterogeneity and Heterophily in Graphs: A Heterogeneous Heterophilic Spectral Graph Neural Network
-This code contains a PyTorch implementation of "Addressing Heterogeneity and Heterophily in Graphs: A Heterogeneous Heterophilic Spectral Graph Neural Network"
+This code contains a PyTorch implementation of "Addressing Heterogeneity and Heterophily in Graphs: A Heterogeneous Heterophilic Spectral Graph Neural Network" (H2SGNN)
 ## Environment Settings
 - pytorch 1.12.1
 - numpy 1.23.1
