@@ -82,20 +82,9 @@ def load_dataset(args):
     # DBLP
     adjs={} 
     meta_paths = []
-    if args.dataset=="DBLP":
-        target = "A"
-        target_max = 4056
-        meta_paths =  ['APA','APTPA','APVPA']
-        adjs["AP"]=adjs_new[0].to(args.device)
-        adjs["PT"]=adjs_new[1].to(args.device)
-        adjs["PV"]=adjs_new[2].to(args.device)
-        adjs["PA"]=adjs_new[3].to(args.device)
-        adjs["TP"]=adjs_new[4].to(args.device)
-        adjs["VP"]=adjs_new[5].to(args.device)
     if args.dataset=="ACM":
         target = "P"
         target_max = 3024
-        meta_paths =  ['PPP','PAP','PCP','PKP']
         adjs["PP"]=adjs_new[0].to(args.device)
         adjs["PA"]=adjs_new[1].to(args.device)
         adjs["PC"]=adjs_new[2].to(args.device)
@@ -120,6 +109,16 @@ def load_dataset(args):
         adjs["PR"]=adjs_new[1].to(args.device)
         adjs["AP"]=adjs_new[2].to(args.device)
         adjs["RP"]=adjs_new[3].to(args.device)
+    if args.dataset=="DBLP":
+        target = "A"
+        target_max = 4056
+        meta_paths =  ['APA','APTPA','APVPA']
+        adjs["AP"]=adjs_new[0].to(args.device)
+        adjs["PT"]=adjs_new[1].to(args.device)
+        adjs["PV"]=adjs_new[2].to(args.device)
+        adjs["PA"]=adjs_new[3].to(args.device)
+        adjs["TP"]=adjs_new[4].to(args.device)
+        adjs["VP"]=adjs_new[5].to(args.device)
 
     print(args.dataset)
 
