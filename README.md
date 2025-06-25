@@ -1,5 +1,5 @@
-## Addressing Graph Heterogeneity and Heterophily from ASpectral Perspective (H2SGNN)
-This code contains a PyTorch implementation of "H2SGNN: A Dual-Filtering Spectral GNN for Heterogeneous and Heterophilic Graphs" (H2SGNN)
+## Addressing Graph Heterogeneity and Heterophily from A Spectral Perspective (H2SGNN)
+This code contains a PyTorch implementation of "Addressing Graph Heterogeneity and Heterophily from ASpectral Perspective" (H2SGNN)
 ## Environment Settings
 - pytorch 1.12.1
 - numpy 1.23.1
