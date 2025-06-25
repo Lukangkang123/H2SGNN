@@ -10,8 +10,13 @@ This code contains a PyTorch implementation of "Addressing Graph Heterogeneity a
 - seaborn 0.12.0
 - scikit-learn 1.1.3
 - ogb 1.3.6
-  
-The dataset is already in the data folder. You can run the following commands directly in this folder. 
+
+## Dataset
+You can download the dataset from Dropbox and place it in the `data/` directory of the project:
+- [Click here to download data.zip](https://www.dropbox.com/scl/fi/qiitjf0mwsx82bes4v39r/data.zip?rlkey=wn3hwvvoz2jhwmos66um3j02r&st=xrohlo0k&dl=0)
+
+## Run
+You can run the following commands directly in this folder. 
 ```sh
 python main.py --dataset AMiner
 python main.py --dataset ACM
