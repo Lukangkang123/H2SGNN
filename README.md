@@ -12,8 +12,10 @@ This code contains a PyTorch implementation of "Addressing Graph Heterogeneity a
 - ogb 1.3.6
 
 ## Dataset
-You can download the dataset from Dropbox and place it in the `data/` directory of the project:
+You can download the dataset from Dropbox, unzip it, and place it in the `data/` directory of the project. You may 
 - [Click here to download data.zip](https://www.dropbox.com/scl/fi/qiitjf0mwsx82bes4v39r/data.zip?rlkey=wn3hwvvoz2jhwmos66um3j02r&st=xrohlo0k&dl=0)
+  
+Note: Accessing Dropbox from within China may require a VPN.
 
 ## Run
 You can run the following commands directly in this folder. 
